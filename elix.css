@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+li, ul, ol{
+	list-style-type: none;
+}
+
+body{
+	width: 375px;
+}
+
+.header{
+	width: 375px;
+	height: 70px;
+	background: orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header .nav .nav-link .link-list{
+	margin: 10px;
+	background: white;
+	padding: 5px 15px;
+	border-radius: 7px;
+}
+
+.main .banner{
+	width: 300px;
+	margin: 30px auto;
+	border-radius: 7px; 
+	height: 150px;
+	background: url(./banner.png) no-repeat center;
+	background-size: cover;
+}
+
+.main .item-list .item-logo{
+	width: 70px;
+	height: 80px;
+	background: url(./elixtest.png) no-repeat center;
+}
+
+.item-list{
+	display: flex;
+	flex-wrap: wrap;
+	width: 375px;
+	justify-content: center;
+}
+
+.item{
+	background: lightgray;
+	width: 70px;
+	height: 150px;
+	border-radius: 0 0 10px 10px;
+	margin: 20px;
+}
+.title-items{
+	font-size: 7px;
+	display: flex;
+	justify-content: center;
+	font-family: monospace;
+}
+
+.bio-item{
+	font-size: 7px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	font-family: monospace;
+	margin-left: 7px;
+	margin-top: 5px;
+}
+
+.buy{
+	font-size: 7px;
+	border: none;
+	color: white;
+	background: lightgreen;
+	border-radius: 7px;
+	width: 60px;
+	margin-left: 5px;
+}
