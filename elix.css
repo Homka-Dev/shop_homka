@@ -13,11 +13,11 @@ li, ul, ol{
 }
 
 body{
-	width: 375px;
+	width: 400px;
 }
 
 .header{
-	width: 375px;
+	width: 400px;
 	height: 70px;
 	background: orange;
 	display: flex;
@@ -42,34 +42,34 @@ body{
 }
 
 .main .item-list .item-logo{
-	width: 70px;
-	height: 80px;
+	width: 90px;
+	height: 100px;
 	background: url(./elixtest.png) no-repeat center;
 }
 
 .item-list{
 	display: flex;
 	flex-wrap: wrap;
-	width: 375px;
+	width: 400px;
 	justify-content: center;
 }
 
 .item{
 	background: lightgray;
-	width: 70px;
-	height: 150px;
+	width: 90px;
+	height: 200px;
 	border-radius: 0 0 10px 10px;
 	margin: 20px;
 }
 .title-items{
-	font-size: 7px;
+	font-size: 10px;
 	display: flex;
 	justify-content: center;
 	font-family: monospace;
 }
 
 .bio-item{
-	font-size: 7px;
+	font-size: 10px;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -79,11 +79,11 @@ body{
 }
 
 .buy{
-	font-size: 7px;
+	font-size: 10px;
 	border: none;
 	color: white;
 	background: lightgreen;
 	border-radius: 7px;
-	width: 60px;
+	width: 80px;
 	margin-left: 5px;
 }
